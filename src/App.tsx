@@ -1,17 +1,18 @@
-import Header from "./components/header";
-import Chart from "./pages/chart";
-import Projects from "./pages/projects";
-import { Routes, Route } from "react-router";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Project from './pages/project/project';
+import Chart from './pages/chart/chart';
 
-const App = () => {
+import MainLayout from './layouts/main-layout/main-layout';
+
+const App: React.FC = () => {
   return (
-    <div className='idmChart'>
-      <Header />
-      <Routes>
-        <Route index element={<Projects />} />
-        <Route path='/project/:id' element={<Chart />} />
-      </Routes>
-    </div>
+    <>
+        <Routes>
+          <Route path="/" element={<MainLayout><Project /></MainLayout>} />
+          <Route path="/project/:projectId/chart" element={<MainLayout><Chart /></MainLayout>} />
+        </Routes>
+    </>
   );
 };
 

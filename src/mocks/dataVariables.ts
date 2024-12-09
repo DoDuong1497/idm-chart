@@ -1,94 +1,94 @@
 export const dataVariables = [
   {
     id: 1,
-    name: "chicken",
+    name: 'chicken',
     quantity: 76,
-    type: "meat",
+    type: 'meat'
   },
   {
     id: 2,
-    name: "bacon",
+    name: 'bacon',
     quantity: 10,
-    type: "meat",
+    type: 'meat'
   },
   {
     id: 3,
-    name: "cheese",
+    name: 'cheese',
     quantity: 20,
-    type: "dairy",
+    type: 'dairy'
   },
   {
     id: 4,
-    name: "milk",
+    name: 'milk',
     quantity: 50,
-    type: "dairy",
+    type: 'dairy'
   },
   {
     id: 5,
-    name: "bread",
+    name: 'bread',
     quantity: 30,
-    type: "grain",
+    type: 'grain'
   },
   {
     id: 6,
-    name: "butter",
+    name: 'butter',
     quantity: 40,
-    type: "dairy",
+    type: 'dairy'
   },
   {
     id: 7,
-    name: "eggs",
+    name: 'eggs',
     quantity: 60,
-    type: "dairy",
+    type: 'dairy'
   },
   {
     id: 8,
-    name: "flour",
+    name: 'flour',
     quantity: 70,
-    type: "grain",
+    type: 'grain'
   },
   {
     id: 10,
-    name: "salt",
+    name: 'salt',
     quantity: 90,
-    type: "spice",
+    type: 'spice'
   },
   {
     id: 11,
-    name: "pepper",
+    name: 'pepper',
     quantity: 100,
-    type: "spice",
+    type: 'spice'
   },
   {
     id: 12,
-    name: "water",
+    name: 'water',
     quantity: 110,
-    type: "beverage",
+    type: 'beverage'
   },
   {
     id: 13,
-    name: "coffee",
+    name: 'coffee',
     quantity: 120,
-    type: "beverage",
+    type: 'beverage'
   },
   {
     id: 14,
-    name: "tea",
+    name: 'tea',
     quantity: 130,
-    type: "beverage",
+    type: 'beverage'
   },
   {
     id: 15,
-    name: "soda",
+    name: 'soda',
     quantity: 140,
-    type: "beverage",
-  },
-];
+    type: 'beverage'
+  }
+]
 
 export const VARIABLE_TYPE = {
-  MEAT: "meat",
-  DAIRY: "dairy",
-  GRAIN: "grain",
-  SPICE: "spice",
-  BEVERAGE: "beverage",
-};
+  MEAT: 'meat',
+  DAIRY: 'dairy',
+  GRAIN: 'grain',
+  SPICE: 'spice',
+  BEVERAGE: 'beverage'
+}
