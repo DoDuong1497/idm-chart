@@ -7,7 +7,7 @@ import { createAsyncFetchProject } from "../../redux/project.slice";
 
 import { dataProject } from "../../mocks/dataProject";
 
-export function Project() {
+function Project() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -64,4 +64,4 @@ export function Project() {
   );
 }
 
-// export default Project;
+export default Project;
