@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import MainLayout from "./layouts/main-layout/main-layout";
 
 import { Chart } from "./pages/chart";
-import { Project } from "./pages/project";
+import { Projects } from "./pages/project";
 
 const App: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const App: React.FC = () => {
           path='/'
           element={
             <MainLayout>
-              <Project />
+              <Projects />
             </MainLayout>
           }
         />
